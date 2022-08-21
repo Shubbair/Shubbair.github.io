@@ -6,4 +6,4 @@ the dataset is contain 16800 of handwritten Arabic characters , you can see it [
 
 to Reach the experiment [here](https://shubbair.github.io/Arabic-HandWriting-Recognition/)
 
-<img src="src.png"/>
+<img src="assets/src.png"/>
