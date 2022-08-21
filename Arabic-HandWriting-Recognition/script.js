@@ -1,4 +1,4 @@
-const Model_Url = 'http://127.0.0.1:5500/model/model.json';
+const Model_Url = 'https://shubbair.github.io/Arabic-HandWriting-Recognition/model/model.json';
 
 let model;
 
