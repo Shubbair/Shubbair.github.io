@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Arabic Alphabet Hand Writing Recognition</title>
+	<meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js"></script>
+	<style>
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		.text-state{
+			font-size: 25px;
+		}
+		.text-data{
+			font-size: 30px;
+		}
+
+		#clr-btn{
+			padding: 10px;
+			color: #EDEDED;
+			background-color: #111111;
+			font-size: 20px;
+			border: #EDEDED;
+			border-radius: 10%;
+		}
+		#pred-btn{
+			padding: 10px;
+			color: #EDEDED;
+			background-color: #111111;
+			font-size: 20px;
+			border: #EDEDED;
+			border-radius: 10%;
+		}
+
+	</style>
+</head>
+
+<body>
+	<script src="script.js"></script>
+	<div class="text-content">
+		<p id="text-state" class="text-state">Loading...</p>
+		<p class="text-data">Prediction : <span id="text-data"></span></p>
+	</div>
+	<div>
+		<button id="clr-btn">Clear</button>
+		<button id="pred-btn">Predict</button>
+	</div>
+	</br>
+</body>
+
+</html>
