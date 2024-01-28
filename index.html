@@ -1,35 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        div.left {
-            float: left;
-            width: 50%;
+        body{
+            background-color:#2D2D2D;
+            overflow: hidden;
+            font-family: Kanit;
         }
-            
-        div.right {
-            float: right;
-            width: 50%;
+        @font-face {
+            font-family: Kanit;
+            src: url(Kanit-Medium.ttf);
+            font-weight: medium;
         }
-
     </style>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="left">
-        <h1>Hussain Salih -> Machine Learning Engineer & Researhcer</h1>
-        <img src="me.jpg" width="50%"/>
+  <div class="fixed lg:w-1/12 w-full">
+    <img src="icon.png" class="" alt="icon name">
+  </div>
+  <div class="flex flex-row p-24 mx-32">
+    <div class="hidden lg:block">
+        <img class="" src="me.png" alt="image">
     </div>
-    <div class="right">
-        <h3>
-            <a href="https://shubbair.webflow.io/">Portfolio</a>
-        </h3>
-        <h3>
-            <a href="https://shubbair.github.io/Arabic-HandWriting-Recognition/">Arabic Handwritten Recognition</a>
-        </h3>    
+    <div class="mx-12 my-24">
+      <p class="text-5xl text-gray-300 ">Hussain Salih Mahdi</p>
+      <br/>
+      <p class="text-2xl text-gray-400 ">Machine Learning Engineer & Researcher</p>
+      <br/>
+      <a class="text-2xl text-gray-200 underline" href="https://shubbair.webflow.io/" target="_blank">Portfolio</a>
+      <br/><br/>
+     <div class="w-16 h-16 bg-stone-300 rounded-full flex items-center justify-center">
+        <a href="https://github.com/Shubbair" target="_blank">
+            <img src="./social_imgs/github.png" class="w-12 h-12" alt="github icon">
+        </a>
+    </div>        
+    <br/>
+    <div class="w-16 h-16 bg-stone-300 rounded-full flex items-center justify-center">
+        <a href="https://www.linkedin.com/in/shubbair/" target="_blank">
+            <img src="./social_imgs/Linkedin.png" class="w-12 h-12" alt="linkedin icon">
+        </a>
     </div>
+    <br/>
+    <div class="w-16 h-16 bg-stone-300 rounded-full flex items-center justify-center">
+        <a href="https://twitter.com/Shubbair" target="_blank">
+            <img src="./social_imgs/twitter.png" class="w-12 h-12" alt="twitter icon">
+        </a>
+    </div>
+  </div>
 </body>
 </html>
